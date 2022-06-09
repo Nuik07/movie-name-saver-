@@ -48,7 +48,6 @@ function setup()
 {
 	$("button").click(function (event)
 	{
-		console.log("here");
 		let temp = event.target.className;
 		if(temp != 'add_btn')
 		{
